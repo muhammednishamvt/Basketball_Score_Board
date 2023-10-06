@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&display=swap" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="scoreboard-container">
+            <div class="Ateam-section">
+                <h1>A Team</h1>
+                <h2 id="score-Ateam">0</h2>
+                <button id="addOneA" onclick="aTeamAddOne()">+1</button>
+                <button id="addTwoA" onclick="aTeamAddTwo()">+2</button>
+                <button id="addThreeA" onclick="aTeamAddThree()">+3</button>
+            </div>
+            <div class="Bteam-section">
+                <h1>B Team</h1>
+                <h2 id="score-Bteam">0</h2>
+                <button id="addOneB" onclick="bTeamAddOne()">+1</button>
+                <button id="addTwoB" onclick="bTeamAddTwo()">+2</button>
+                <button id="addThreeB" onclick="bTeamAddThree()">+3</button>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
